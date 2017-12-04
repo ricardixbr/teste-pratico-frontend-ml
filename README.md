@@ -2,11 +2,11 @@
 
 Teste prático para os candidatos ao cargo de frontend no Mercado Livre.
 
-##Visão Geral
+## Visão Geral
 
 Esse projeto foi desenvolvido para atender uma etapa do processo seletivo no Mercado Livre.
 
-##Características
+## Características
 
 Está dividido em dois diretórios, que representam cada etapa proposta nas espeficicações do teste
 
@@ -39,6 +39,9 @@ O projeto foi desenvolvido usando HTML5, React, e  Sass.
 
 Iniciar o projeto ( dentro do diretório client )
 > $ npm install
+
+Iniciar o servidor
+> $ npm start
 
 Em seguinda a página deverá ser carregada em seu browser (http://localhost:3000).
 
