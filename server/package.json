@@ -1,0 +1,21 @@
+{
+  "name": "teste-pratico-frontend",
+  "version": "1.0.0",
+  "description": "Teste para o processo seletivo do ML",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js"
+  },
+  "keywords": [
+    "mercado livre",
+    "javascript",
+    "api rest",
+    "json"
+  ],
+  "author": "Ricardo Reis",
+  "devDependencies": {
+    "express": "~4.0.0",
+    "body-parser": "~1.0.1",
+    "request": "^2.83.0"
+  }
+}

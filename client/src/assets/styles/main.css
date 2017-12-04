@@ -1,0 +1,171 @@
+html, body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; }
+
+@-ms-viewport {
+  width: device-width; }
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar; }
+
+* {
+  box-sizing: inherit; }
+  *::before, *::after {
+    box-sizing: inherit; }
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px; } }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px; } }
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px; } }
+
+.site-header {
+  font-size: 1.4rem;
+  height: 60px;
+  border-bottom: 1px solid #d9d9d9;
+  background: #fee500; }
+  .site-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .site-header .site-title {
+    margin: 0; }
+  .site-header .site-search-items {
+    display: flex;
+    width: 90%; }
+    .site-header .site-search-items .form-input {
+      width: 100%;
+      padding: 5px 60px 5px 15px;
+      color: #333;
+      border: 1px solid #ccc;
+      border-radius: 3px 0 0 3px;
+      background-color: #fff; }
+    .site-header .site-search-items .form-submit-search {
+      display: flex;
+      width: 46px;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-left: none;
+      border-radius: 0 3px 3px 0;
+      background-color: #fff;
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f1f1f1));
+      background-image: -webkit-linear-gradient(#fff, #f1f1f1);
+      background-image: linear-gradient(#fff, #f1f1f1);
+      justify-content: center; }
+
+.site-breadcrumb .breadcrumb-list {
+  display: flex;
+  margin: 2rem 0;
+  padding: 0;
+  list-style: none;
+  color: #999; }
+
+.site-breadcrumb .item + .item:before {
+  display: inline-block;
+  margin: 0 5px;
+  content: ' / '; }
+
+.site-breadcrumb .link {
+  font-size: 1.4rem;
+  color: #999; }
+
+.site-list-items .list-items {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 2rem;
+  padding: 0 2rem;
+  list-style: none;
+  background-color: #fff; }
+  .site-list-items .list-items .item {
+    margin-bottom: 2rem;
+    padding-top: 2rem; }
+    .site-list-items .list-items .item + .item {
+      border-top: 1px solid #ccc; }
+    .site-list-items .list-items .item .link {
+      display: flex;
+      text-decoration: none;
+      justify-content: space-between; }
+      .site-list-items .list-items .item .link .main-info {
+        display: flex;
+        width: 80%; }
+        .site-list-items .list-items .item .link .main-info .info {
+          line-height: 1.2;
+          padding-left: 2rem;
+          color: #333; }
+          .site-list-items .list-items .item .link .main-info .info .item-price {
+            font-size: 2rem; }
+          .site-list-items .list-items .item .link .main-info .info .item-title {
+            font-size: 2.4rem; }
+      .site-list-items .list-items .item .link .item-conditions {
+        font-size: 1.4rem;
+        color: #666; }
+
+.product-detail .inner {
+  margin: 0 0 2rem;
+  padding: 2rem;
+  background-color: #fff; }
+
+.product-detail .product-headline {
+  display: flex;
+  justify-content: space-between; }
+  .product-detail .product-headline .price-info {
+    width: 30%; }
+    .product-detail .product-headline .price-info .product-conditions {
+      font-size: 1.4rem;
+      color: #666; }
+    .product-detail .product-headline .price-info .product-title {
+      font-size: 2.6rem;
+      line-height: 1.2;
+      color: #333; }
+    .product-detail .product-headline .price-info .product-price {
+      font-size: 4.4rem;
+      display: flex;
+      margin: 2rem 0 4rem;
+      color: #333; }
+      .product-detail .product-headline .price-info .product-price .main-value {
+        line-height: 1; }
+      .product-detail .product-headline .price-info .product-price .cents {
+        font-size: 1.6rem; }
+    .product-detail .product-headline .price-info .action-button {
+      font-size: 2rem;
+      display: block;
+      width: 100%;
+      padding: 1rem;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      border-radius: 3px;
+      background-color: #3483fa; }
+
+.product-detail .more-info {
+  width: 70%; }
+  .product-detail .more-info .product-title {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    color: #333; }
+  .product-detail .more-info .product-description {
+    font-size: 1.6rem;
+    color: #999; }
